@@ -1,0 +1,54 @@
+.about-us-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+
+.p-about-us{
+    width: 40%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.title-pages{
+    font-family: "Righteous", sans-serif;
+    background-image: url('src/assets/title_bg.jpg');
+    background-clip: text;
+    color: transparent;
+    opacity: .8;
+    font-size: 100px;
+  }
+
+  .custom-line-pages {
+    border: none;
+    border-top: 5px solid #2E5642; 
+    width: 30%; 
+    margin-bottom: 30px;
+  }
+
+  .page-name {
+    color: #BF7288;
+    font-size: 60px;
+    font-family: "Jost", sans-serif;
+  }
+
+  @media (max-width: 1286px) {
+
+    .p-about-us{
+      width: 70%;
+      margin-top: 50px;
+      margin-bottom: 50px;
+  }
+
+  .custom-line-pages {
+    width: 80%; 
+  }
+
+  }
+  @media (max-width: 634px) {
+    .title-pages{
+      text-align: center;
+    }
+  }

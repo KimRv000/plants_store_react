@@ -1,0 +1,276 @@
+.see-more {
+  position: absolute;
+  display: inline-block;
+  text-decoration: none;
+  color: #2E5642;
+  font-size: xx-large;
+  bottom: 0;
+  font-family: "Jost", sans-serif;
+  margin: 20px;
+}
+
+.see-more:hover {
+  font-weight: bold;
+  color: #BF7288;
+  transition: all 0.3s ease;
+}
+
+.homePlants-Globalcontainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 80vh;
+}
+.homePlants-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+.plants-container {
+  position: relative;
+  width: 90%;
+  height: auto;
+  background-color: transparent;
+  top: 680px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.plant-image {
+  position: absolute;
+  bottom: 0;
+  margin: 0 auto;
+}
+
+.monstera {
+  position: absolute;
+  z-index: 1;
+  width: 620px;
+  height: auto;
+  left: 0;
+}
+
+.orchid {
+  position: absolute;
+  z-index: 2;
+  width: 500px;
+  height: auto;
+  left: 28%;
+}
+
+.orchid-2 {
+  position: absolute;
+  z-index: 3;
+  width: 500px;
+  height: auto;
+  bottom: 0;
+  left: 20%;
+}
+
+.pothos {
+  position: absolute;
+  z-index: 5;
+  width: 400px;
+  height: auto;
+  right: 32%;
+}
+
+.succulent {
+  position: absolute;
+  z-index: 3;
+  width: 500px;
+  height: auto;
+  right: 22%;
+}
+
+.snake-plant {
+  position: absolute;
+  z-index: 4;
+  width: 700px;
+  height: auto;
+  right: 0;
+}
+
+.custom-line-home {
+  position: absolute;
+  border: none;
+  border-top: 5px solid #2E5642;
+  width: 50%;
+  margin: 20px auto;
+  top: 620px;
+}
+
+@media (max-width: 1140px) {
+
+  .plants-container {
+    width: 99%;
+    top: 580px;
+  }
+
+  .monstera {
+    width: 520px;
+  }
+  
+  .orchid {
+    width: 400px;
+  }
+  
+  .orchid-2 {
+    width: 400px;
+  }
+  
+  .pothos {
+    width: 300px;
+  }
+  
+  .succulent {
+    width: 400px;
+  }
+  
+  .snake-plant {
+    width: 600px;
+  }
+
+  .custom-line-home {
+    margin: 20px auto;
+    top: 520px;
+  }
+
+  .see-more {
+    bottom: 20px;
+  }
+
+}
+
+
+@media (max-width: 780px) {
+
+  .homePlants-Globalcontainer {
+    height: 60vh;
+  }
+
+  .plants-container {
+    width: 99%;
+    top: 480px;
+  }
+
+  .monstera {
+    width: 420px;
+  }
+  
+  .orchid {
+    width: 300px;
+  }
+  
+  .orchid-2 {
+    width: 400px;
+  }
+  
+  .pothos {
+    width: 300px;
+  }
+  
+  .succulent {
+    width: 300px;
+  }
+  
+  .snake-plant {
+    width: 500px;
+  }
+
+  .custom-line-home {
+    margin: 20px auto;
+    top: 420px;
+  }
+
+}
+@media (max-width: 685px) {
+
+  .plants-container {
+    width: 99%;
+    top: 380px;
+  }
+
+  .monstera {
+    width: 320px;
+  }
+  
+  .orchid {
+    width: 200px;
+  }
+  
+  .orchid-2 {
+    width: 300px;
+  }
+  
+  .pothos {
+    width: 200px;
+  }
+  
+  .succulent {
+    width: 200px;
+  }
+  
+  .snake-plant {
+    width: 400px;
+  }
+
+  .custom-line-home {
+    margin: 20px auto;
+    top: 340px;
+  }
+
+  .see-more {
+    bottom: 40px;
+  }
+
+}
+@media (max-width: 500px) {
+
+  .plants-container {
+    width: 99%;
+    top: 320px;
+  }
+
+  .monstera {
+    width: 270px;
+  }
+  
+  .orchid {
+    width: 150px;
+  }
+  
+  .orchid-2 {
+    width: 250px;
+  }
+  
+  .pothos {
+    width: 150px;
+  }
+  
+  .succulent {
+    width: 150px;
+  }
+  
+  .snake-plant {
+    width: 300px;
+  }
+
+  .custom-line-home {
+    width: 70%;
+    margin: 20px auto;
+    top: 290px;
+  }
+
+  .see-more {
+    bottom: 20px;
+  }
+
+}

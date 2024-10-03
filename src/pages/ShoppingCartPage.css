@@ -1,0 +1,36 @@
+.shopping-cart {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cart-info-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.cart-info{
+    font-family: "Jost", sans-serif;
+    color: #2E5642;
+}
+
+.pay-button {
+    background-color: #2E5642;
+    opacity: .42;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    height: fit-content;
+    margin: 20px;
+    font-size: larger;
+}
+.pay-button:hover {
+    background-color: #BF7288;
+    opacity: .8;
+}
