@@ -8,7 +8,7 @@ header {
 .title {
     font-family: "Righteous", sans-serif;
     font-size: 250px;
-    background-image: url('src/assets/title_bg.jpg');
+    background-image: url('/title_bg.jpg');
     background-clip: text;
     color: transparent;
     opacity: .8;

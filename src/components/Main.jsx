@@ -11,7 +11,7 @@ const Main = ({ onBuy }) => {
   return (
     <main>
       <Routes>
-        <Route path="/" element={
+        <Route path="/plants_store_react" element={
           <>
             <Header />
             <HomePlants />
