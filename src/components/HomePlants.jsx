@@ -4,6 +4,8 @@ import orchid from '../assets/orchid_transparent.png';
 import succulent from '../assets/succulent_transparent.png';
 import pothos from '../assets/pothos_transparent.png';
 import snakePlant from '../assets/snake_plant_transparent.png';
+import { Link } from 'react-router-dom';
+
 
 
 const HomePlants = () => {
@@ -20,7 +22,7 @@ const HomePlants = () => {
         </div>
         <hr className="custom-line-home" />
       </section>
-      <a href="/plants" className="see-more">See all ...</a>
+      <Link to="/plants" className="see-more">See all ...</Link>
     </div>
   );
 };
